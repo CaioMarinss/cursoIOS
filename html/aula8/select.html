@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>lista de carros</legend>
+            <select name="listaCarros" id="listaCarros">
+
+                <option disabled selected hidden>Selecione</option>
+                <option value="supra">Supra</option>
+                <option value="eclipse">Eclipse</option>
+                <option value="lancer">Lancer</option>
+                <option value="mazdaRx7">Mazda Rx-7</option>
+                <option value="skylineR34">Skyline R34</option>
+
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Região</legend>
+            <input autocomplete="on" list="regiao">
+            <datalist id="regiao">
+                <option value="São Paulo"></option>
+                <option value="Rio de Janeiro"></option>
+                <option value="Ceará"></option>
+
+            </datalist>
+            <br><br>
+            <textarea name="feedback" id="feedback" cols="20" rows="10" maxlength="100"
+                placeholder="Deixe aqui seu feedback" required></textarea> <br>
+        </fieldset> <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <form action="#">
+        <fieldset>
+            <legend>Contato com o cliente:</legend>
+            <label for="nomeCliente">Nome Completo:</label>
+            <input type="text" name="name" id="nomeCliente">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="tel">Telefone para contato:</label>
+            <input type="text" name="tel" id="tel">
+            <br><br>
+            <label for="message">Deixe sua avaliação</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+
+</html>
