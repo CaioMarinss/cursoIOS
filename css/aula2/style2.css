@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Bruno+Ace&display=swap');
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100px;
+
+}
+body{
+    background-color: #0367A6;
+    text-align: center;
+}
+h1{
+    color: #9FC8E6;
+}
+h2{
+color: #84C1D9;
+font-family: "Bruno Ace", sans-serif;
+}
+p{
+    font-family: "Beau Rivage", cursive;
+    color: #84C1D9;
+    font-size: 50px;
+}
