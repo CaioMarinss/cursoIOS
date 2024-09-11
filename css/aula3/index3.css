@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Bruno+Ace&display=swap');
+
+*{
+    font-size: 20px;
+}
+
+body {
+    background-color: #0367A6;
+    text-align: center;
+}
+
+main{
+    background-color: white;
+    border-radius: 2rem;
+    
+}
+
+h1 {
+    font-style: italic;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    color: #9FC8E6;
+    text-shadow: 4px 6px 16px #1b537a ;
+}
+
+h2{
+color: #84C1D9;
+font-family: "Bruno Ace", sans-serif;
+font-size: 1.5em;
+}
+
+.salsichinha{
+    width: 400px;
+    filter: drop-shadow(5px 5px 10px #162dfa);
+}
+
+p {
+    font-family: "Beau Rivage", cursive;
+    color: #84C1D9;
+    font-size: 1.5rem;
+}
