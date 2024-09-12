@@ -1,0 +1,61 @@
+/* .titulo{
+    color: yellow;
+ }
+.italico{
+    font-style: italic;
+}
+.sombra{
+    filter: drop-shadow(5px 5px 5px #000);
+}
+#ola{
+    color: red;
+}
+#alo{
+    color: yellow;
+}
+#eai{
+    color: blue;
+}
+#paragrafos{
+    background-color: gray;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caixa {
+    font-family: "Pixelify Sans", sans-serif;
+    width: 20vw;
+    border: 10px double #000;
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+#yes:hover::before,
+#no:hover::before {
+    content: '>';
+    display: inline;
+}
+
+
+.centro {
+    display: flex;
+    justify-content: center;
+}
+
+/* explorando por conta própria o before e */
