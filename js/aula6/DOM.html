@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+    <h1>Olá mundo</h1>
+    <form id="meuForm">
+        <label for="nomeU">Nome:</label>
+        <input type="text" id="nomeU">
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script>
+        const form = document.getElementById("meuForm");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); // Impede o envio do formulário
+
+            const nomeUser = document.getElementById("nomeU");
+            const valorUser = nomeUser.value;
+
+            document.body.innerText = valorUser; // Agora o valor será exibido no console
+        });
+    </script>
+</body>
+
+</html>
