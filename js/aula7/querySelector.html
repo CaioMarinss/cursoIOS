@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 3</title>
+</head>
+<body>
+    <h1 id="tituloPrincipal">QuerySelector</h1>
+    <p class="paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem rem sint nemo, quaerat explicabo minima cum id dignissimos voluptatum culpa veniam nobis molestias expedita enim recusandae doloribus aperiam pariatur quibusdam?</p>
+    <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero natus a corrupti sapiente hic! Tempora nisi laudantium earum cumque, corrupti a provident quaerat voluptatem tenetur modi sint esse ullam possimus.</p>
+
+    <script>
+        let titulo = document.querySelector('#tituloPrincipal');
+        titulo.style.color = 'rebeccaPurple';
+        titulo.innerHTML = 'Caio';
+
+        let texto = document.querySelector('.paragrafo');
+        texto.style.color = 'Red'
+    </script>
+</body>
+</html>
